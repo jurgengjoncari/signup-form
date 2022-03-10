@@ -3,3 +3,17 @@
         list-style-type: none;
     }
 }
+
+@layer layout {
+    body {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        
+        height: 100vh;
+    }
+}
+
+@layer table {
+
+}
