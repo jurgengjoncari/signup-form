@@ -3,24 +3,10 @@
     src: url(assets/Norse-Bold.otf);
 }
 
-@layer normalize {
-    dl li {
-        list-style-type: none;
-    }
-}
-
-@layer layout {
-    body {
-        margin: 0;
-        display: flex;
-        
-        height: 100vh;
-    }
-}
-
 @layer header {
     header {
         background-image: url('assets/halie-west-25xggax4bSA-unsplash.jpg');
+        background-size: cover;
         color: white;
 
         min-width: 320px;
@@ -48,11 +34,10 @@
 }
 
 @layer form {
-    form dl {
+    .input-items {
         display: grid;
-        grid-template: repeat(3, 1fr) / repeat(2, 1fr)
+        width: inherit;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr)
     }
-}
-
-@layer footer {
 }

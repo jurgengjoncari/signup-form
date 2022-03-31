@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://jurgengjoncari.github.io/default-styles/index.css">
+    <link rel="stylesheet" href="https://jurgengjoncari.github.io/web-components/form/style.css">
     <link rel="stylesheet" href="style.css">
     <title>Signup Form</title>
 </head>
@@ -23,30 +25,30 @@
         <form action="">
             <fieldset>
                 <legend>Let's do this</legend>
-                <dl>
+                <dl class="input-items">
                     <li>
-                        <dt>First Name</dt>
-                        <dd><input type="text"></dd>
+                        <dt><label for="first-name">First Name</label></dt>
+                        <dd><input type="text" id="first-name"></dd>
                     </li>
                     <li>
-                        <dt>Last Name</dt>
-                        <dd><input type="text"></dd>
+                        <dt><label for="last-name">Last Name</label></dt>
+                        <dd><input type="text" id="last-name"></dd>
                     </li>
                     <li>
-                        <dt>Email</dt>
-                        <dd><input type="email"></dd>
+                        <dt><label for="email">Email</label></dt>
+                        <dd><input type="email" id="email"></dd>
                     </li>
                     <li>
-                        <dt>Phone Number</dt>
-                        <dd><input type="tel"></dd>
+                        <dt><label for="phone-number">Phone Number</label></dt>
+                        <dd><input type="tel" id="phone-number"></dd>
                     </li>
                     <li>
-                        <dt>Password</dt>
-                        <dd><input type="password"></dd>
+                        <dt><label for="password">Password</label></dt>
+                        <dd><input type="password" id="password"></dd>
                     </li>
                     <li>
-                        <dt>Confirm Password</dt>
-                        <dd><input type="password"></dd>
+                        <dt><label for="confirm-password">Confirm Password</label></dt>
+                        <dd><input type="password" id="confirm-password"></dd>
                     </li>
                 </dl>
             </fieldset>
