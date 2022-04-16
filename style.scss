@@ -1,0 +1,13 @@
+$body-bg: black;
+$body-color: white;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+img {
+    height: $h1-font-size;
+    width: auto;
+}
+
+.container {
+    display: grid;
+}
